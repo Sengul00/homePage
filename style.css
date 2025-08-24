@@ -94,6 +94,7 @@ nav-img{
     width: 222px;
     height: 74px;
     margin-top: 10px;
+    cursor: pointer;
 }
 .browse{
     display: flex;
@@ -243,6 +244,7 @@ nav-img{
     color: #B88E2F;
     border: 1px solid #B88E2F;
     margin: 40px;
+    cursor: pointer;
 }
 
 .deg{
@@ -318,4 +320,129 @@ nav-img{
 }
 .card:hover .deg{
     opacity: 1;
+}
+.inspiration-section {
+    display: grid;
+    grid-template-columns: 422px 402px 372px;
+    height: 581px;
+    gap: 45px;
+    padding: 60px;
+    background-color: #FCF8F3;
+    position: relative;
+}
+.text-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+.text-area h2 {
+    font-size: 40px;
+    margin: 0px;
+}
+.text-area p {
+    font-size: 16px;
+    color: #616161;
+    font-weight: 500;
+}
+.text-area button {
+    background-color: #B88E2F;
+    border: none;
+    padding: 12px 24px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px;
+    width: 176px;
+    height: 48px;
+    color: white;
+}
+.room {
+    position: relative;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.room-bot{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 217px;
+    height: 130px;
+    background-color: #FFFFFFB8;
+    opacity: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.room img {
+    width: 404px;
+    height: 486px;
+    height: auto;
+    display: inline-block;
+}
+.room-number {
+    position: absolute;
+    bottom: 80px;
+    left: 20px;
+    font-size: 14px;
+    color: #616161;
+}
+.room h3 {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    font-size: 28px;
+    color: #333;
+    font-weight: 600;
+}
+.room-right{
+    height: 486px;
+    position: relative;
+}
+.arrow{
+    position: absolute;
+    right: -47px;
+    bottom: 0px;
+    width: 48px;
+    height: 48px;
+    background-color: #B88E2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 100%;
+}
+.room-last{
+    position: absolute;
+    width: 52px;
+    height: 486px;
+    overflow: hidden;
+    right: 2px;
+    top: 60px;
+}
+.room-last img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.steps{
+    position: absolute;
+    width: 110px;
+    height: 27px;
+    left: 970px;
+    bottom: 110px;
+}
+.slider-arrow{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    right: 70px;
+    bottom: 300px;
+}
+.slider-arrow img{
+    border-radius: 50%;
+    clip-path: inset(3px 3px 3px 3px);
+    cursor: pointer;
 }
